@@ -1,1 +1,1 @@
-web: heroku-postinstall
+web: npm run build
