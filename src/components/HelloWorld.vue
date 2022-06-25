@@ -58,13 +58,25 @@ a {
     }
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     height: auto;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    h1{
+
+    h1 {
       font-size: 1.4rem;
     }
+
+    .main--container__cards {
+      .main--container__card {
+        .grid-item {
+          .grid-item__link {
+            font-size: 50%;
+          }
+        }
+      }
+    }
+
   }
 }
 </style>
