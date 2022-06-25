@@ -6,14 +6,14 @@
     </div>
     <div class="main--container__presentation">
       <p>
-        Hello, my name is Mounir and I am a junior web developer who has just finished his training.
+        👋 Hello, my name is Mounir and I am a junior web developer who has just finished his formation.
         <br>
         <br>
-        I wish to continue my learning with a training in company, to perfect my competences and to gain in experiences.
+        I wish to continue my apprenticeship with a company, to improve my skills and gain experience.
         <br>
         <br>
 
-        You will find on my portfolio, the projects I have done, how to contact me and my resume.
+        You will find in my portfolio, the projects I have done and how to contact me.
       </p>
     </div>
   </div>

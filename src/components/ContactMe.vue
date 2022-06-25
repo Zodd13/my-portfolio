@@ -55,7 +55,7 @@ export default {
                             href="mailto:berniam.pro@gmail.com">address email</a></p>
                 </div>
                 <input v-if="!v$.name.$error" class='main--container__nameinput' type="text" v-model="state.name"
-                    placeholder='Nom' name='nom' />
+                    placeholder='Name' name='nom' />
                 <input v-else class='main--container__nameinput' type="text" v-model="state.name"
                     placeholder='Votre nom est trop court.' name='nom' />
 
@@ -69,8 +69,7 @@ export default {
                     v-model="state.message" rows="10" placeholder='Message'></textarea>
                 <textarea resize="none" v-else class='main--container__text' name="message" v-model="state.message"
                     rows="10" placeholder='Votre message est trop court'></textarea>
-                <button name="submit" value="submit" @click="validationForm" class='main--container__button'>Envoyez
-                    votre message</button>
+                <button name="submit" value="submit" @click="validationForm" class='main--container__button'>Send your message</button>
             </form>
         </div>
     </div>
