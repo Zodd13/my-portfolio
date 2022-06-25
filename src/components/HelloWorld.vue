@@ -16,9 +16,6 @@
         You will find on my portfolio, the projects I have done, how to contact me and my resume.
       </p>
     </div>
-    <div className="main--container__arrow">
-      <a href="#mywork"><i class="fa-solid fa-chevron-down"></i></a>
-    </div>
   </div>
 </template>
 
@@ -58,28 +55,15 @@ a {
       text-align: justify;
       margin: auto;
       font-size: 1.4rem;
-
     }
   }
 
-  &__arrow {
-    display: flex;
-    height: 10%;
-    width: 100%;
-    align-items: flex-end;
-    justify-content: center;
-
-    .fa-chevron-down {
-      color: white;
-      display: flex;
-      font-size: 3rem;
-      height: 50px;
-
-      &:hover {
-        transform: translateY(100%);
-        transition: 0.4s ease-in-out;
-        cursor: pointer;
-      }
+  @media screen and (max-width: 768px){
+    height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    h1{
+      font-size: 1.4rem;
     }
   }
 }

@@ -40,10 +40,6 @@
 
             </div>
         </div>
-
-        <div className="main--container__arrow">
-            <a href="#skills"><i class="fa-solid fa-chevron-down"></i></a>
-        </div>
     </div>
 </template>
 
@@ -78,26 +74,6 @@ export default {
         width: 100%;
         grid-template-columns: repeat(5, 1fr);
 
-    }
-    &__arrow {
-        display: flex;
-        height: 10%;
-        width: 100%;
-        align-items: flex-end;
-        justify-content: center;
-
-        .fa-chevron-down {
-            color: white;
-            display: flex;
-            font-size: 3rem;
-            height: 50px;
-
-            &:hover {
-                transform: translateY(100%);
-                transition: 0.4s ease-in-out;
-                cursor: pointer;
-            }
-        }
     }
 
     .grid-item {

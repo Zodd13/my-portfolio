@@ -182,26 +182,5 @@ export default {
     &__progressbarF {
         width: 60%;
     }
-
-    &__arrow {
-        display: flex;
-        height: 5%;
-        width: 100%;
-        align-items: flex-end;
-        justify-content: center;
-
-        .fa-chevron-down {
-            color: white;
-            display: flex;
-            font-size: 2rem;
-            height: 50px;
-
-            &:hover {
-                transform: translateY(100%);
-                transition: 0.4s ease-in-out;
-                cursor: pointer;
-            }
-        }
-    }
 }
 </style>
