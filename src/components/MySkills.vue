@@ -149,26 +149,15 @@ export default {
     }
 
     &__progressbarA {
-        width: 75%;
-
-        &:hover {
-            p {
-                visibility: visible;
-                display: flex;
-                margin: 0;
-                height: 100%;
-                justify-content: center;
-                align-items: center;
-            }
-        }
+        width: 65%;
     }
 
     &__progressbarB {
-        width: 60%;
+        width: 55%;
     }
 
     &__progressbarC {
-        width: 65%;
+        width: 60%;
     }
 
     &__progressbarD {
@@ -176,7 +165,7 @@ export default {
     }
 
     &__progressbarE {
-        width: 90%;
+        width: 55%;
     }
 
     &__progressbarF {
