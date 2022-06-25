@@ -14,7 +14,7 @@ export default {
             return {
 
                 email: { required, email },
-                name: { required, minLength: minLength(5) },
+                name: { required, minLength: minLength(2) },
                 message: { required, minLength: minLength(5) }
             }
         })
